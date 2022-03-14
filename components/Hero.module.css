@@ -1,0 +1,9 @@
+.Container {
+  background-image: url("https://res.cloudinary.com/isolant-cloudinary/image/upload/w_auto,q_auto:good,f_auto/rufi/bg/isolant-aislantes-landing-rufi-fondo-hero-sin-rollo.jpg");
+}
+
+@screen lg {
+  .Container {
+    background-image: url("https://res.cloudinary.com/isolant-cloudinary/image/upload/w_auto,q_auto:good,f_auto/rufi/bg/isolant-aislantes-landing-rufi-fondo-hero.jpg");
+  }
+}
