@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Aluminizado",
+    "productImage": "https://res.cloudinary.com/isolant-cloudinary/image/upload/w_auto,f_auto,q_auto:good/rufi/products/rufi/isolant-aislantes-landing-rufi-rollo-rufi-aluminizado.png",
+    "measurement": "1 x 20 mts.",
+    "thickness": "5, 10, 15 mm."
+  },
+  {
+    "title": "Super TBA 2",
+    "logo": "https://res.cloudinary.com/isolant-cloudinary/image/upload/w_auto,f_auto,q_auto:good/rufi/logo/alternative-products/isolant-aislantes-landing-rufi-logo-super-tba.png",
+    "productImage": "https://res.cloudinary.com/isolant-cloudinary/image/upload/w_auto,f_auto,q_auto:good/rufi/products/alternatives/isolant-aislantes-landing-rufi-rollo-super-tba.png",
+    "backgroundImage": "https://res.cloudinary.com/isolant-cloudinary/image/upload/w_auto,f_auto,q_auto:good/rufi/bg/products/isolant-aislantes-landing-rufi-imagen-super-tba.jpg",
+    "measurement": "1,20 x 20 mts.",
+    "thickness": "15 mm.",
+    "characteristics": [
+      "Rollo 1,20 ancho",
+      "Para todo tipo de techo",
+      "Solape para termo soldar",
+      "Acanalado techo ventilado",
+      "Aluminio alto micronaje"
+    ],
+    "benefits": [
+      "Mayor densidad de la espuma",
+      "Servicio técnico gratuito"
+    ],
+    "url": "https://www.isolant.com.ar/aislantes/super-tba"
+  },
+  {
+    "title": "TBA Multicapa",
+    "logo": "https://res.cloudinary.com/isolant-cloudinary/image/upload/w_auto,f_auto,q_auto:good/rufi/logo/alternative-products/isolant-aislantes-landing-rufi-logo-tba-multicapa.png",
+    "productImage": "https://res.cloudinary.com/isolant-cloudinary/image/upload/w_auto,f_auto,q_auto:good/rufi/products/alternatives/isolant-aislantes-landing-rufi-rollo-tba-multicapa.png",
+    "backgroundImage": "https://res.cloudinary.com/isolant-cloudinary/image/upload/w_auto,f_auto,q_auto:good/rufi/bg/products/isolant-aislantes-landing-rufi-imagen-tba-multicapa.jpg",
+    "measurement": "1 x 20 mts.",
+    "thickness": "7mm constante y 13mm en los bastones aireadores",
+    "characteristics": [
+      "Triple capa hidrófuga",
+      "Anti-deslizante",
+      "Aluminio puro de alto micronaje protegido",
+      "Bastones de ventilación (techo ventilado)"
+    ],
+    "benefits": [
+      "Mayor densidad de la espuma",
+      "Servicio técnico gratuito"
+    ],
+    "url": "https://www.isolant.com.ar/aislantes/tba-multicapa"
+  },
+  {
+    "title": "TBA",
+    "productImage": "https://res.cloudinary.com/isolant-cloudinary/image/upload/w_auto,f_auto,q_auto:good/rufi/products/alternatives/isolant-aislantes-landing-rufi-rollo-tba.png",
+    "backgroundImage": "https://res.cloudinary.com/isolant-cloudinary/image/upload/w_auto,q_auto:good,f_auto/rufi/bg/products/isolant-aislantes-landing-rufi-imagen-tba.jpg",
+    "measurement": "1 x 20 mts.",
+    "thickness": "5, 10, 15 mm.",
+    "characteristics": [
+      "Rapi-Tac"
+    ],
+    "benefits": [
+      "Mayor densidad de la espuma",
+      "Servicio técnico gratuito"
+    ],
+    "url": "https://www.isolant.com.ar/aislantes/tba"
+  }
+]

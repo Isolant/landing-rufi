@@ -10,10 +10,11 @@ export default function ProductsSection({
   products,
   activeProduct,
   setActiveProduct,
+  title
 }) {
   return (
     <ProductSection
-      title="Galpones y Tinglados"
+      title={title}
       products={products}
       activeProduct={activeProduct}
       setActiveProduct={setActiveProduct}
@@ -51,7 +52,7 @@ export function ProductSection({
           </defs>
         </svg>
         <h2
-          className="relative uppercase tracking-wider text-sm text-white"
+          className="relative uppercase tracking-wider text-sm text-white max-w-xs"
         >
           {title}
         </h2>

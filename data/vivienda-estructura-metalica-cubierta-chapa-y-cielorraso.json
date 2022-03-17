@@ -1,0 +1,63 @@
+[
+  {
+    "title": "Aluminio",
+    "productImage": "https://res.cloudinary.com/isolant-cloudinary/image/upload/w_auto,f_auto,q_auto:good/rufi/products/rufi/isolant-aislantes-landing-rufi-rollo-rufi-aluminio.png",
+    "measurement": "1 x 20 mts.",
+    "thickness": "5, 10, 15 mm."
+  },
+  {
+    "title": "Super TBA 1",
+    "logo": "https://res.cloudinary.com/isolant-cloudinary/image/upload/w_auto,f_auto,q_auto:good/rufi/logo/alternative-products/isolant-aislantes-landing-rufi-logo-super-tba.png",
+    "productImage": "https://res.cloudinary.com/isolant-cloudinary/image/upload/w_auto,f_auto,q_auto:good/rufi/products/alternatives/isolant-aislantes-landing-rufi-rollo-super-tba.png",
+    "backgroundImage": "https://res.cloudinary.com/isolant-cloudinary/image/upload/w_auto,f_auto,q_auto:good/rufi/bg/products/isolant-aislantes-landing-rufi-imagen-super-tba.jpg",
+    "measurement": "1,20 x 20 mts.",
+    "thickness": "15 mm.",
+    "characteristics": [
+      "Rollo 1,20 ancho",
+      "Para todo tipo de techo",
+      "Solape para termo soldar",
+      "Acanalado techo ventilado",
+      "Aluminio alto micronaje"
+    ],
+    "benefits": [
+      "Mayor densidad de la espuma",
+      "Servicio técnico gratuito"
+    ],
+    "url": "https://www.isolant.com.ar/aislantes/super-tba"
+  },
+  {
+    "title": "Alu Fusion NET",
+    "logo": "https://res.cloudinary.com/isolant-cloudinary/image/upload/w_auto,f_auto,q_auto:good/rufi/logo/alternative-products/isolant-aislantes-landing-rufi-logo-alu-fusion-net.png",
+    "productImage": "https://res.cloudinary.com/isolant-cloudinary/image/upload/w_auto,f_auto,q_auto:good/rufi/products/alternatives/isolant-aislantes-landing-rufi-rollo-alu-fusion-net.png",
+    "backgroundImage": "https://res.cloudinary.com/isolant-cloudinary/image/upload/w_auto,f_auto,q_auto:good/rufi/bg/products/isolant-aislantes-landing-rufi-imagen-alu-fusion-net.jpg",
+    "measurement": "1,05 x 20 mts.",
+    "thickness": "10 mm.",
+    "benefits": [
+      "Red incorporada; no necesita malla sostén",
+      "Aluminio alto micronaje",
+      "Mayor densidad de la espuma",
+      "Servicio técnico gratuito"
+
+    ],
+    "url": "https://www.isolant.com.ar/aislantes/alu-fusion-net"
+  },
+  {
+    "title": "Cedro NET",
+    "logo": "https://res.cloudinary.com/isolant-cloudinary/image/upload/w_auto,f_auto,q_auto:good/rufi/logo/alternative-products/isolant-aislantes-landing-rufi-logo-cedro-net.png",
+    "productImage": "https://res.cloudinary.com/isolant-cloudinary/image/upload/w_auto,f_auto,q_auto:good/rufi/products/alternatives/isolant-aislantes-landing-rufi-rollo-cedro-net.png",
+    "backgroundImage": "https://res.cloudinary.com/isolant-cloudinary/image/upload/w_auto,f_auto,q_auto:good/rufi/bg/products/isolant-aislantes-landing-rufi-imagen-cedro-net.jpg",
+    "measurement": "1,05 x 20 mts.",
+    "thickness": "10 mm.",
+    "characteristics": [
+      "Terminación estética símil cedro"
+    ],
+    "benefits": [
+      "Red incorporada; no necesita malla sostén",
+      "Aluminio alto micronaje",
+      "Mayor densidad de la espuma",
+      "Servicio técnico gratuito"
+
+    ],
+    "url": "https://www.isolant.com.ar/aislantes/cedro-net"
+  }
+]

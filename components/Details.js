@@ -121,11 +121,26 @@ export default function Details({
           </ul>
         </article>
         <div
-          className="relative h-full"
+          className="relative h-72 order-first md:order-last md:h-full"
         >
+          <svg viewBox="0 0 272 500" className="hidden xl:block absolute right-0 bottom-0 z-10 max-h-full" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0 500L136.5 364L272.5 500H0Z" fill="url(#paint0_linear_15_521)"/>
+            <path d="M272 0L21 249.49L272 500V0Z" fill="url(#paint1_linear_15_521)"/>
+            <defs>
+            <linearGradient id="paint0_linear_15_521" x1="136.25" y1="364" x2="136.25" y2="500" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#FFC72C"/>
+            <stop offset="1" stop-color="#FAA83C"/>
+            </linearGradient>
+            <linearGradient id="paint1_linear_15_521" x1="146.5" y1="0" x2="146.5" y2="500" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#009EE2"/>
+            <stop offset="1" stop-color="#006997"/>
+            </linearGradient>
+            </defs>
+          </svg>
           <Image
             src={product[0].backgroundImage}
             layout="fill"
+            objectFit='cover'
           />
         </div>
       </section>
