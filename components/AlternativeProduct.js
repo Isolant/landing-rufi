@@ -4,8 +4,8 @@ import Image from 'next/image';
 
 export default function AlternativeProduct({
   product,
-  productOpened,
-  setProductOpened
+  activeProduct,
+  setActiveProduct
 }) {
   return (
     <li className="flex flex-col items-center max-w-xs relative w-full">
@@ -18,14 +18,14 @@ export default function AlternativeProduct({
           />
         :
           <h3 className="uppercase tracking-wider text-sm text-gray-400">
-            <span className='ml-2'>{product.title}</span>
+            {product.title}
           </h3>
         }
       </div>
       <div
         className={`
           relative p-4 rounded-md
-          ${productOpened === product.title ? 'bg-orange-100' : ''}
+          ${activeProduct === product.title ? 'bg-orange-100' : ''}
         `}
       >
         <img
@@ -38,12 +38,12 @@ export default function AlternativeProduct({
             w-10 h-10
             rounded-full
             shadow-md
-            ${productOpened === product.title ? 'bg-sky-500 hover:bg-sky-400' : 'bg-orange-500 hover:bg-orange-400'}
+            ${activeProduct === product.title ? 'bg-sky-500 hover:bg-sky-400' : 'bg-orange-500 hover:bg-orange-400'}
             text-white
           `}
-          onClick={() => setProductOpened(product.title)}
+          onClick={() => setActiveProduct(product.title)}
         >
-          {productOpened === product.title ? '-' : '+'}
+          {activeProduct === product.title ? '-' : '+'}
         </button>
       </div>
     </li>

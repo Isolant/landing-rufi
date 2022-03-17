@@ -151,7 +151,7 @@ export default function Hero({
                 tracking-wider
                 font-bold
                 text-sm
-                text-orange-600 hover:text-orange-500
+                text-orange-500 hover:text-orange-400
                 flex items-center
               "
             >
