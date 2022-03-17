@@ -19,6 +19,8 @@ export default function Landing() {
   const changeActiveSelection = (e) => {
     e.preventDefault();
     setActiveSelection(e.target[0].value);
+
+    window.location = '/#' + e.target[0].value;
   }
 
   return (
@@ -27,7 +29,7 @@ export default function Landing() {
         activeSelection={activeSelection}
         changeActiveSelection={changeActiveSelection}
       />
-      <section id={activeSelection}>
+      <section id="galpones-y-tinglados">
         <ProductsSection
           activeSelection={activeSelection}
           products={galponesTinglados}
@@ -38,6 +40,8 @@ export default function Landing() {
         <Details
           product={galponesTinglados.filter(product => product.title === activeProduct)}
         />
+      </section>
+      <section id="vivienda-estructura-metalica-cubierta-chapa-y-cielorraso">
         <ProductsSection
           activeSelection={activeSelection}
           products={viviendaOne}
@@ -48,6 +52,8 @@ export default function Landing() {
         <Details
           product={viviendaOne.filter(product => product.title === activeProduct)}
         />
+      </section>
+      <section id="vivienda-cubierta-teja-y-machimbre">
         <ProductsSection
           activeSelection={activeSelection}
           products={viviendaTwo}
