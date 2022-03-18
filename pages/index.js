@@ -6,6 +6,7 @@ import Base from '../components/Base';
 import Hero from '../components/Hero';
 import ProductsSection from '../components/ProductsSection';
 import Details from '../components/Details';
+import Accesories from '../components/Accesories';
 
 // Product data
 import galponesTinglados from '../data/galpones-y-tinglados.json';
@@ -65,6 +66,7 @@ export default function Landing() {
           product={viviendaTwo.filter(product => product.title === activeProduct)}
         />
       </section>
+      <Accesories />
     </Base>
   )
 }
