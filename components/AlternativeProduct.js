@@ -30,7 +30,7 @@ export default function AlternativeProduct({
       >
         <img
           src={product.productImage}
-          className='max-h-36'
+          className={`${product.title === 'Super TBA 1' || product.title === 'Super TBA 2' ? 'max-h-44' : 'max-h-36'}`}
         />
         <button
           className={`
