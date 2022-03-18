@@ -7,6 +7,8 @@ import Hero from '../components/Hero';
 import ProductsSection from '../components/ProductsSection';
 import Details from '../components/Details';
 import Accesories from '../components/Accesories';
+import Isoplus from '../components/Isoplus';
+import Cta from '../components/Cta';
 
 // Product data
 import galponesTinglados from '../data/galpones-y-tinglados.json';
@@ -67,6 +69,8 @@ export default function Landing() {
         />
       </section>
       <Accesories />
+      <Isoplus />
+      <Cta />
     </Base>
   )
 }
