@@ -6,18 +6,18 @@ import RufiProduct from './RufiProduct';
 import AlternativeProduct from './AlternativeProduct';
 
 export default function ProductsSection({
-  activeSelection,
+  // activeSelection,
+  // activeProduct,
+  // setActiveProduct,
   products,
-  activeProduct,
-  setActiveProduct,
   title
 }) {
   return (
     <ProductSection
       title={title}
       products={products}
-      activeProduct={activeProduct}
-      setActiveProduct={setActiveProduct}
+      // activeProduct={activeProduct}
+      // setActiveProduct={setActiveProduct}
     />
   );
 }
@@ -25,8 +25,8 @@ export default function ProductsSection({
 export function ProductSection({
   title,
   products,
-  activeProduct,
-  setActiveProduct
+  // activeProduct,
+  // setActiveProduct
 }) {
   return (
     <article
@@ -70,8 +70,8 @@ export function ProductSection({
           return <AlternativeProduct
             product={product}
             index={index}
-            activeProduct={activeProduct}
-            setActiveProduct={setActiveProduct}
+            // activeProduct={activeProduct}
+            // setActiveProduct={setActiveProduct}
           />
         })}
       </ul>

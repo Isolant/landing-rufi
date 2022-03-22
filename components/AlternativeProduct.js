@@ -3,8 +3,8 @@ import React from 'react';
 
 export default function AlternativeProduct({
   product,
-  activeProduct,
-  setActiveProduct
+  // activeProduct,
+  // setActiveProduct
 }) {
   return (
     <li className="flex flex-col items-center max-w-xs relative w-full">
@@ -20,29 +20,26 @@ export default function AlternativeProduct({
           </h3>
         }
       </div>
-      <div
-        className={`
-          relative p-4 rounded-md flex-1 flex items-end
-          ${activeProduct === product.title ? 'bg-orange-100' : ''}
-        `}
-      >
+      <div className="relative p-4 rounded-md flex-1 flex items-end">
         <img
           src={product.productImage}
           className={`${product.title === 'Super TBA 1' || product.title === 'Super TBA 2' ? 'max-h-44' : 'max-h-36'}`}
         />
-        <button
+        <a
           className={`
             absolute right-0 top-16
             w-10 h-10
             rounded-full
             shadow-md
-            ${activeProduct === product.title ? 'bg-sky-500 hover:bg-sky-400' : 'bg-orange-500 hover:bg-orange-400'}
+            bg-orange-500 hover:bg-orange-400
             text-white
           `}
-          onClick={() => setActiveProduct(product.title)}
+          href={product.url}
+          target="_blank"
+          rel="noopener noreferrer"
         >
-          {activeProduct === product.title ? '-' : '+'}
-        </button>
+          <span className="flex items-center justify-center w-full h-full">+</span>
+        </a>
       </div>
     </li>
   );
