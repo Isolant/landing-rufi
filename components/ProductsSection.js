@@ -30,7 +30,7 @@ export function ProductSection({
 }) {
   return (
     <article
-      className="pt-24 lg:pt-48"
+      className="pt-16 lg:pt-24"
     >
       <div
         className="relative flex items-center px-4"
@@ -58,7 +58,7 @@ export function ProductSection({
         </h2>
       </div>
       <ul
-        className="grid grid-cols-1 lg:grid-cols-4 xl:grid-cols-6 px-4 lg:px-0 gap-8 justify-items-center lg:items-end mt-12 lg:mt-16"
+        className="grid grid-cols-1 lg:grid-cols-4 xl:grid-cols-6 px-4 lg:px-0 gap-8 justify-items-center mt-12 lg:mt-16"
       >
         {products.map((product, index) => {
           if(index === 0) {

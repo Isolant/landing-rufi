@@ -1,6 +1,5 @@
 // Globals
 import React from 'react';
-import Image from 'next/image';
 
 export default function AlternativeProduct({
   product,
@@ -11,10 +10,9 @@ export default function AlternativeProduct({
     <li className="flex flex-col items-center max-w-xs relative w-full">
       <div className="lg:mb-6">
         {product.logo ?
-          <Image
+          <img
             src={product.logo}
-            width={180}
-            height={28}
+            className="w-36"
           />
         :
           <h3 className="uppercase tracking-wider text-sm text-gray-400">
@@ -24,7 +22,7 @@ export default function AlternativeProduct({
       </div>
       <div
         className={`
-          relative p-4 rounded-md
+          relative p-4 rounded-md flex-1 flex items-end
           ${activeProduct === product.title ? 'bg-orange-100' : ''}
         `}
       >

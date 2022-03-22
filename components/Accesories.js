@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 export default function Accesories() {
   return (
-    <section className="pt-24 lg:pt-48">
+    <section className="pt-16 lg:pt-24">
       <div className="relative flex items-center justify-center">
         <hr
           className="bg-gradient-to-b from-yellow-400 to-orange-400 h-2 w-full border-none"
@@ -15,7 +15,7 @@ export default function Accesories() {
           Accesorios para un techo completamente aislado
         </h3>
       </div>
-      <ul className="grid grid-cols-1 lg:grid-cols-3 items-center container mx-auto max-w-2xl">
+      <ul className="grid grid-cols-1 lg:grid-cols-3 items-center container mx-auto max-w-3xl">
         <Accesory
           logo="https://res.cloudinary.com/isolant-cloudinary/image/upload/w_auto,f_auto,q_auto:good/rufi/logo/accesories/isolant-aislantes-landing-rufi-logo-sellatutti.png"
           image="https://res.cloudinary.com/isolant-cloudinary/image/upload/w_auto,q_auto:good,f_auto/rufi/products/accesories/isolant-aislantes-landing-rufi-rollo-sellatutti.png"
@@ -28,10 +28,11 @@ export default function Accesories() {
           />
         </li>
          <Accesory
-          logo="https://res.cloudinary.com/isolant-cloudinary/image/upload/w_auto,f_auto,q_auto:good/rufi/logo/accesories/isolant-aislantes-landing-rufi-logo-fixband.png"
-          image="https://res.cloudinary.com/isolant-cloudinary/image/upload/w_auto,q_auto:good,f_auto/rufi/products/accesories/isolant-aislantes-landing-rufi-rollo-fix-band.png"
-          description="Impermeabilizá juntas<br />y repará fisuras"
-          url="https://www.isolant.com.ar/aislantes/fix-band"
+          logo="https://res.cloudinary.com/isolant-cloudinary/image/upload/w_auto,f_auto,q_auto:good/rufi/logo/accesories/isolant-aislantes-landing-rufi-logo-atacama.png"
+          image="https://res.cloudinary.com/isolant-cloudinary/image/upload/w_auto,f_auto,q_auto:good/rufi/products/accesories/isolant-aislantes-landing-rufi-logo-atacama.png"
+          description="Aislante térmico líquido para losas, chapas y muros"
+          url="https://www.isolant.com.ar/aislantes/atacama"
+          id="atacama"
         />
       </ul>
       <div className="relative flex items-center justify-center">
@@ -47,7 +48,8 @@ export function Accesory({
   logo,
   image,
   description,
-  url
+  url,
+  id
 }) {
   return (
     <li className="flex flex-col items-center my-16 lg:my-32">
@@ -56,7 +58,12 @@ export function Accesory({
         width="120"
         height="25"
       />
-      <div className="relative border border-gray-200 rounded-full w-28 h-28 my-4">
+      <div
+        className={`
+          ${id !== 'atacama' && 'border border-gray-200'}
+          relative rounded-full w-28 h-28 my-4
+        `}
+      >
         <Image
           src={image}
           width="112"
@@ -64,7 +71,7 @@ export function Accesory({
         />
       </div>
       <p
-        className="uppercase tracking-wider text-sm text-gray-500 max-w-xs text-center font-bold"
+        className="uppercase tracking-wider text-sm text-gray-500 max-w-sm text-center font-bold"
         dangerouslySetInnerHTML={{ __html: description }}
       />
       <a

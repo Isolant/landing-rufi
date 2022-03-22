@@ -9,7 +9,7 @@ export default function Isoplus() {
           decorations={true}
           image="https://res.cloudinary.com/isolant-cloudinary/image/upload/w_auto,f_auto,q_auto:good/rufi/bg/isoplus/isolant-aislantes-landing-rufi-isoplus-duenos-e-inquilinos.jpg"
           title={`¿No tenés quién te coloque <strong class="font-bold lg:block">nuestros aislantes?</strong>`}
-          text="Encontrá el más cercano a tu casa en nuestra base de instaladores y arquitectos ISOPLUS."
+          text="Encontrá a un profesional cerca de tu casa en nuestra base de instaladores y arquitectos ISOPLUS."
           ctaLink="https://isoplus.isolant.com.ar/inicio"
           ctaText="Ir a Isoplus"
         />

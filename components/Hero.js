@@ -94,9 +94,26 @@ export default function Hero({
               font-light
             "
           >
-            Complet&aacute; el formulario para que te recomendemos el mejor aislante para tu obra.
+            RUFI es el nuevo aislante t&eacute;rmico econ&oacute;mico, que responde a un mercado de necesidades competitivas, sin dejar de ser una espuma de calidad Isolant. Una relaci&oacute;n precio calidad que te permitir&aacute; decidir f&aacute;cilmente qu&eacute; poner en tu obra, validado por una empresa con m&aacute;s de 30 a&ntilde;os en el mercado.
           </p>
-          <form
+          <a
+            className="
+              mt-4
+              uppercase
+              tracking-wider
+              font-bold
+              text-sm
+              text-orange-500 hover:text-orange-400
+              flex items-center
+            "
+            href="#galpones-y-tinglados"
+          >
+            conoc&eacute; m&aacute;s
+            <svg width="11" height="12" viewBox="0 0 11 12" fill="none" xmlns="http://www.w3.org/2000/svg" className="fill-current ml-2">
+              <path d="M9.55664 5.2207C9.32227 4.98633 8.9707 5.00977 8.73633 5.2207L6.06445 8.05664V1.30664C6.06445 1.00195 5.80664 0.744141 5.50195 0.744141H4.75195C4.42383 0.744141 4.18945 1.00195 4.18945 1.30664V8.05664L1.49414 5.2207C1.25977 5.00977 0.908203 4.98633 0.673828 5.2207L0.158203 5.73633C-0.0527344 5.94727 -0.0527344 6.32227 0.158203 6.5332L4.72852 11.0801C4.93945 11.3145 5.29102 11.3145 5.52539 11.0801L10.0723 6.5332C10.2832 6.32227 10.2832 5.9707 10.0723 5.73633L9.55664 5.2207Z" />
+            </svg>
+          </a>
+          {/* <form
             className="
               mt-4
               flex flex-col items-start
@@ -160,7 +177,7 @@ export default function Hero({
                 <path d="M9.55664 5.2207C9.32227 4.98633 8.9707 5.00977 8.73633 5.2207L6.06445 8.05664V1.30664C6.06445 1.00195 5.80664 0.744141 5.50195 0.744141H4.75195C4.42383 0.744141 4.18945 1.00195 4.18945 1.30664V8.05664L1.49414 5.2207C1.25977 5.00977 0.908203 4.98633 0.673828 5.2207L0.158203 5.73633C-0.0527344 5.94727 -0.0527344 6.32227 0.158203 6.5332L4.72852 11.0801C4.93945 11.3145 5.29102 11.3145 5.52539 11.0801L10.0723 6.5332C10.2832 6.32227 10.2832 5.9707 10.0723 5.73633L9.55664 5.2207Z" />
               </svg>
             </button>
-          </form>
+          </form> */}
         </div>
       </div>
     </section>
