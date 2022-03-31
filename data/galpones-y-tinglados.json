@@ -1,94 +1,472 @@
 [{
   "title": "Doble Aluminio",
   "productImage": "https://res.cloudinary.com/isolant-cloudinary/image/upload/w_auto,f_auto,q_auto:good/rufi/products/rufi/isolant-aislantes-landing-rufi-rollo-rufi-doble-aluminio.png",
-  "measurement": "1 x 20 mts.",
-  "thickness": "5, 10, 15 mm."
+  "parameters": [
+    {
+      "name": "Medida",
+      "value": "1x20",
+      "highlighted": false
+    },
+    {
+      "name": "Espesor mm",
+      "value": "5 y 10",
+      "highlighted": false
+    },
+    {
+      "name": "Superficie útil (m2)",
+      "value": "18.6",
+      "highlighted": false
+    },
+    {
+      "name": "Unión",
+      "value": "Rebaje",
+      "highlighted": false
+    },
+    {
+      "name": "Densidad de espuma (kgs/m³)",
+      "value": "16",
+      "highlighted": false
+    },
+    {
+      "name": "Resistencia Térmica m²K/W en 10mm",
+      "value": "S/E",
+      "highlighted": false
+    },
+    {
+      "name": "Equivale a lana de vidrio de",
+      "value": "S/E",
+      "highlighted": false
+    },
+    {
+      "name": "Estructura",
+      "value": "Metálica",
+      "highlighted": false
+    },
+    {
+      "name": "Cara superior",
+      "value": "Doble aluminio",
+      "highlighted": false
+    },
+    {
+      "name": "Contacto con la chapa?",
+      "value": "Si",
+      "highlighted": false
+    },
+    {
+      "name": "Vista / Cara inferior",
+      "value": "Aluminio",
+      "highlighted": false
+    },
+    {
+      "name": "Red incorporada?",
+      "value": "No",
+      "highlighted": false
+    },
+    {
+      "name": "Propagación de llama",
+      "value": "S/E",
+      "highlighted": false
+    }
+  ]
 },
 {
   "title": "Doble Alu Net",
   "logo": "https://res.cloudinary.com/isolant-cloudinary/image/upload/w_auto,f_auto,q_auto:good/rufi/logo/alternative-products/isolant-aislantes-landing-rufi-logo-doble-alu-net.png",
   "productImage": "https://res.cloudinary.com/isolant-cloudinary/image/upload/w_auto,f_auto,q_auto:good/rufi/products/alternatives/isolant-aislantes-landing-rufi-rollo-doble-alu-net.png",
-  "backgroundImage": "https://res.cloudinary.com/isolant-cloudinary/image/upload/w_auto,f_auto,q_auto:good/rufi/bg/products/isolant-aislantes-landing-rufi-imagen-doble-alu-net.jpg",
-  "measurement": "1,05 x 20 mts.",
-  "thickness": "5, 10, 15 mm.",
-  "characteristics": [
-    "Red incorporada; no necesita malla sostén",
-    "Solape para termo soldar",
-    "Rollos a medida por más de 1000 m2 gratis",
-    "RE2 muy baja propagación de llama"
-  ],
-  "benefits": [
-    "Más vida útil",
-    "Laminado más fuerte",
-    "Espuma bicapa",
-    "Aluminio alto micronaje",
-    "Mayor densidad de la espuma",
-    "Servicio técnico gratuito"
-  ],
-  "url": "https://www.isolant.com.ar/aislantes/doble-alu-net"
+  "url": "https://www.isolant.com.ar/aislantes/doble-alu-net",
+  "parameters": [
+    {
+      "name": "Medida",
+      "value": "1,05x20",
+      "highlighted": true,
+      "highlightedScore": 1
+    },
+    {
+      "name": "Espesor mm",
+      "value": "10 y 15",
+      "highlighted": true,
+      "highlightedScore": 1
+    },
+    {
+      "name": "Superficie útil (m2)",
+      "value": "20",
+      "highlighted": true,
+      "highlightedScore": 1
+    },
+    {
+      "name": "Unión",
+      "value": "Termo soldado reforzado",
+      "highlighted": true,
+      "highlightedScore": 2
+    },
+    {
+      "name": "Densidad de espuma (kgs/m³)",
+      "value": "25",
+      "highlighted": true,
+      "highlightedScore": 2
+    },
+    {
+      "name": "Resistencia Térmica m²K/W en 10mm",
+      "value": "1.91 (*)",
+      "highlighted": true,
+      "highlightedScore": 3
+    },
+    {
+      "name": "Equivale a lana de vidrio de",
+      "value": "77 mm.",
+      "highlighted": true,
+      "highlightedScore": 1
+    },
+    {
+      "name": "Estructura",
+      "value": "Metálica",
+      "highlighted": false
+    },
+    {
+      "name": "Cara superior",
+      "value": "Doble aluminio",
+      "highlighted": false
+    },
+    {
+      "name": "Contacto con la chapa?",
+      "value": "Si",
+      "highlighted": false
+    },
+    {
+      "name": "Vista / Cara inferior",
+      "value": "Aluminio",
+      "highlighted": false
+    },
+    {
+      "name": "Red incorporada?",
+      "value": "Si",
+      "highlighted": true,
+      "highlightedScore": 2
+    },
+    {
+      "name": "Propagación de llama",
+      "value": "RE2",
+      "highlighted": true,
+      "highlightedScore": 1
+    }
+  ]
 },
 {
   "title": "Alu Stark Net",
   "logo": "https://res.cloudinary.com/isolant-cloudinary/image/upload/w_auto,f_auto,q_auto:good/rufi/logo/alternative-products/isolant-aislantes-landing-rufi-logo-alu-stark-net.png",
   "productImage": "https://res.cloudinary.com/isolant-cloudinary/image/upload/w_auto,f_auto,q_auto:good/rufi/products/alternatives/isolant-aislantes-landing-rufi-rollo-alu-stark-net.png",
-  "backgroundImage": "https://res.cloudinary.com/isolant-cloudinary/image/upload/w_auto,f_auto,q_auto:good/rufi/bg/products/isolant-aislantes-landing-rufi-imagen-alu-stark-net.jpg",
-  "measurement": "1,05 x 20 mts.",
-  "thickness": "5, 10, 15 mm.",
-  "characteristics": [
-    "Red incorporada; no necesita malla sostén",
-    "Terminación blanca premium",
-    "Solape para termo soldar",
-    "Rollos a medida por más de 1000 m2 gratis",
-    "RE2 muy baja propagación de llama"
-  ],
-  "benefits": [
-    "Más vida útil",
-    "Laminado más fuerte",
-    "Espuma bicapa",
-    "Aluminio alto micronaje",
-    "Mayor densidad de la espuma",
-    "Servicio técnico gratuito"
-  ],
-  "url": "https://www.isolant.com.ar/aislantes/alu-stark-net"
+  "url": "https://www.isolant.com.ar/aislantes/alu-stark-net",
+  "parameters": [
+    {
+      "name": "Medida",
+      "value": "1,05x20",
+      "highlighted": true,
+      "highlightedScore": 1
+    },
+    {
+      "name": "Espesor mm",
+      "value": "10 y 15",
+      "highlighted": true,
+      "highlightedScore": 1
+    },
+    {
+      "name": "Superficie útil (m2)",
+      "value": "20",
+      "highlighted": true,
+      "highlightedScore": 1
+    },
+    {
+      "name": "Unión",
+      "value": "Termo soldado reforzado",
+      "highlighted": true,
+      "highlightedScore": 2
+    },
+    {
+      "name": "Densidad de espuma (kgs/m³)",
+      "value": "25",
+      "highlighted": true,
+      "highlightedScore": 2
+    },
+    {
+      "name": "Resistencia Térmica m²K/W en 10mm",
+      "value": "S/E",
+      "highlighted": false
+    },
+    {
+      "name": "Equivale a lana de vidrio de",
+      "value": "S/E",
+      "highlighted": false
+    },
+    {
+      "name": "Estructura",
+      "value": "Metálica",
+      "highlighted": false
+    },
+    {
+      "name": "Cara superior",
+      "value": "Doble aluminio",
+      "highlighted": false
+    },
+    {
+      "name": "Contacto con la chapa?",
+      "value": "Si",
+      "highlighted": false
+    },
+    {
+      "name": "Vista / Cara inferior",
+      "value": "Gofrado Blanco AR",
+      "highlighted": true,
+      "highlightedScore": 1
+    },
+    {
+      "name": "Red incorporada?",
+      "value": "Si",
+      "highlighted": true,
+      "highlightedScore": 2
+    },
+    {
+      "name": "Propagación de llama",
+      "value": "RE2",
+      "highlighted": true,
+      "highlightedScore": 1
+    }
+  ]
 },
 {
   "title": "Doble Alu",
   "productImage": "https://res.cloudinary.com/isolant-cloudinary/image/upload/w_auto,f_auto,q_auto:good/rufi/products/alternatives/isolant-aislantes-landing-rufi-rollo-doble-alu.png",
-  "backgroundImage": "https://res.cloudinary.com/isolant-cloudinary/image/upload/w_auto,f_auto,q_auto:good/rufi/bg/products/isolant-aislantes-landing-rufi-imagen-doble-alu.jpg",
-  "measurement": "1,05 x 20 mts.",
-  "thickness": "5, 10, 15 mm.",
-  "characteristics": [
-    "Rollos a medida por más de 1000 m2 gratis",
-    "RE2 muy baja propagación de llama"
-  ],
-  "benefits": [
-    "Más vida útil",
-    "Laminado más fuerte",
-    "Espuma bicapa",
-    "Aluminio alto micronaje",
-    "Mayor densidad de la espuma",
-    "Servicio técnico gratuito"
-  ],
-  "url": "https://www.isolant.com.ar/aislantes/doble-alu"
+  "url": "https://www.isolant.com.ar/aislantes/doble-alu",
+  "parameters": [
+    {
+      "name": "Medida",
+      "value": "1,05x20",
+      "highlighted": true,
+      "highlightedScore": 1
+    },
+    {
+      "name": "Espesor mm",
+      "value": "5, 10 y 15",
+      "highlighted": true,
+      "highlightedScore": 1
+    },
+    {
+      "name": "Superficie útil (m2)",
+      "value": "20",
+      "highlighted": true,
+      "highlightedScore": 1
+    },
+    {
+      "name": "Unión",
+      "value": "Termo soldado",
+      "highlighted": true,
+      "highlightedScore": 1
+    },
+    {
+      "name": "Densidad de espuma (kgs/m³)",
+      "value": "25",
+      "highlighted": true,
+      "highlightedScore": 2
+    },
+    {
+      "name": "Resistencia Térmica m²K/W en 10mm",
+      "value": "1.91 (*)",
+      "highlighted": true,
+      "highlightedScore": 3
+    },
+    {
+      "name": "Equivale a lana de vidrio de",
+      "value": "77 mm.",
+      "highlighted": true,
+      "highlightedScore": 1
+    },
+    {
+      "name": "Estructura",
+      "value": "Metálica",
+      "highlighted": false
+    },
+    {
+      "name": "Cara superior",
+      "value": "Doble aluminio",
+      "highlighted": false
+    },
+    {
+      "name": "Contacto con la chapa?",
+      "value": "Si",
+      "highlighted": false
+    },
+    {
+      "name": "Vista / Cara inferior",
+      "value": "Aluminio",
+      "highlighted": false
+    },
+    {
+      "name": "Red incorporada?",
+      "value": "No",
+      "highlighted": false
+    },
+    {
+      "name": "Propagación de llama",
+      "value": "RE2",
+      "highlighted": true,
+      "highlightedScore": 1
+    }
+  ]
 },
 {
   "title": "Alu Stark",
   "productImage": "https://res.cloudinary.com/isolant-cloudinary/image/upload/w_auto,f_auto,q_auto:good/rufi/products/alternatives/isolant-aislantes-landing-rufi-rollo-alu-stark.png",
-  "backgroundImage": "https://res.cloudinary.com/isolant-cloudinary/image/upload/w_auto,f_auto,q_auto:good/rufi/bg/products/isolant-aislantes-landing-rufi-imagen-alu-stark.jpg",
-  "measurement": "1,05 x 20 mts.",
-  "thickness": "5, 10, 15 mm.",
-  "characteristics": [
-    "Terminación blanca premium",
-    "Rollos a medida por más de 1000 m2 gratis",
-    "RE2 muy baja propagación de llama" 
-  ],
-  "benefits": [
-    "Más vida útil",
-    "Laminado más fuerte",
-    "Espuma bicapa",
-    "Aluminio alto micronaje",
-    "Mayor densidad de la espuma",
-    "Servicio técnico gratuito"
-  ],
-  "url": "https://www.isolant.com.ar/aislantes/alu-stark"
-}]
+  "url": "https://www.isolant.com.ar/aislantes/alu-stark",
+  "parameters": [
+    {
+      "name": "Medida",
+      "value": "1,05x20",
+      "highlighted": true,
+      "highlightedScore": 1
+    },
+    {
+      "name": "Espesor mm",
+      "value": "5, 10 y 15",
+      "highlighted": true,
+      "highlightedScore": 1
+    },
+    {
+      "name": "Superficie útil (m2)",
+      "value": "20",
+      "highlighted": true,
+      "highlightedScore": 1
+    },
+    {
+      "name": "Unión",
+      "value": "Termo soldado",
+      "highlighted": true,
+      "highlightedScore": 1
+    },
+    {
+      "name": "Densidad de espuma (kgs/m³)",
+      "value": "25",
+      "highlighted": true,
+      "highlightedScore": 2
+    },
+    {
+      "name": "Resistencia Térmica m²K/W en 10mm",
+      "value": "S/E",
+      "highlighted": false
+    },
+    {
+      "name": "Equivale a lana de vidrio de",
+      "value": "S/E",
+      "highlighted": false
+    },
+    {
+      "name": "Estructura",
+      "value": "Metálica",
+      "highlighted": false
+    },
+    {
+      "name": "Cara superior",
+      "value": "Doble aluminio",
+      "highlighted": false
+    },
+    {
+      "name": "Contacto con la chapa?",
+      "value": "Si",
+      "highlighted": false
+    },
+    {
+      "name": "Vista / Cara inferior",
+      "value": "Gofrado Blanco AR",
+      "highlighted": true,
+      "highlightedScore": 1
+    },
+    {
+      "name": "Red incorporada?",
+      "value": "No",
+      "highlighted": false
+    },
+    {
+      "name": "Propagación de llama",
+      "value": "RE2",
+      "highlighted": true,
+      "highlightedScore": 1
+    }
+  ]
+},
+{
+  "title": "Cedro Net",
+  "logo": "https://res.cloudinary.com/isolant-cloudinary/image/upload/w_auto,f_auto,q_auto:good/rufi/logo/alternative-products/isolant-aislantes-landing-rufi-logo-cedro-net.png",
+  "productImage": "https://res.cloudinary.com/isolant-cloudinary/image/upload/w_auto,f_auto,q_auto:good/rufi/products/alternatives/isolant-aislantes-landing-rufi-rollo-cedro-net.png",
+  "url": "https://www.isolant.com.ar/aislantes/alu-stark",
+  "parameters": [
+    {
+      "name": "Medida",
+      "value": "1,05x10",
+      "highlighted": false
+    },
+    {
+      "name": "Espesor mm",
+      "value": "10",
+      "highlighted": false
+    },
+    {
+      "name": "Superficie útil (m2)",
+      "value": "10",
+      "highlighted": false
+    },
+    {
+      "name": "Unión",
+      "value": "Termo soldado reforzado",
+      "highlighted": true,
+      "highlightedScore": 2
+    },
+    {
+      "name": "Densidad de espuma (kgs/m³)",
+      "value": "25",
+      "highlighted": true,
+      "highlightedScore": 2
+    },
+    {
+      "name": "Resistencia Térmica m²K/W en 10mm",
+      "value": "S/E",
+      "highlighted": false
+    },
+    {
+      "name": "Equivale a lana de vidrio de",
+      "value": "S/E",
+      "highlighted": false
+    },
+    {
+      "name": "Estructura",
+      "value": "Metálica",
+      "highlighted": false
+    },
+    {
+      "name": "Cara superior",
+      "value": "Doble aluminio",
+      "highlighted": false
+    },
+    {
+      "name": "Contacto con la chapa?",
+      "value": "Si",
+      "highlighted": false
+    },
+    {
+      "name": "Vista / Cara inferior",
+      "value": "Simil Cedro",
+      "highlighted": true,
+      "highlightedScore": 1
+    },
+    {
+      "name": "Red incorporada?",
+      "value": "Si",
+      "highlighted": true,
+      "highlightedScore": 2
+    },
+    {
+      "name": "Propagación de llama",
+      "value": "RE2",
+      "highlighted": true,
+      "highlightedScore": 1
+    }
+  ]
+}
+]
