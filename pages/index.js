@@ -101,6 +101,29 @@ export default function Landing() {
           product={viviendaTwo.filter(product => product.title === activeProduct)}
         /> */}
       </section>
+      <div className='container mx-auto p-4 mt-2'>
+        <h4 className="uppercase tracking-wider text-xs text-gray-400 font-bold">Referencias:</h4>
+        <p
+          className="
+            text-gray-400
+            tracking-wide leading-relaxed
+            font-light text-xs
+            mt-1
+          "
+        >
+            (*) Estimado por c&aacute;lculos num&eacute;ricos sin ensayo normalizado.
+        </p>
+        <p
+          className="
+            text-gray-400
+            tracking-wide leading-relaxed
+            font-light text-xs
+            mt-1
+          "
+        >
+            S/E: Sin ensayo.
+        </p>
+      </div>
       <Accesories />
       <Isoplus />
       <Cta />
