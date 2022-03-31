@@ -2,62 +2,314 @@
   {
     "title": "Aluminio",
     "productImage": "https://res.cloudinary.com/isolant-cloudinary/image/upload/w_auto,f_auto,q_auto:good/rufi/products/rufi/isolant-aislantes-landing-rufi-rollo-rufi-aluminio.png",
-    "measurement": "1 x 20 mts.",
-    "thickness": "5, 10, 15 mm."
+    "parameters": [
+      {
+        "name": "Medida",
+        "value": "1x20",
+        "highlighted": false
+      },
+      {
+        "name": "Espesor mm",
+        "value": "5 y 10",
+        "highlighted": false
+      },
+      {
+        "name": "Superficie útil (m2)",
+        "value": "18.6",
+        "highlighted": false
+      },
+      {
+        "name": "Unión",
+        "value": "Rebaje",
+        "highlighted": false
+      },
+      {
+        "name": "Densidad de espuma (kgs/m³)",
+        "value": "16",
+        "highlighted": false
+      },
+      {
+        "name": "Resistencia Térmica m²K/W en 10mm",
+        "value": "S/E",
+        "highlighted": false
+      },
+      {
+        "name": "Equivale a lana de vidrio de",
+        "value": "S/E",
+        "highlighted": false
+      },
+      {
+        "name": "Estructura",
+        "value": "Madera",
+        "highlighted": false
+      },
+      {
+        "name": "Cara superior",
+        "value": "Aluminio",
+        "highlighted": false
+      },
+      {
+        "name": "Contacto con la chapa?",
+        "value": "No",
+        "highlighted": false
+      },
+      {
+        "name": "Vista / Cara inferior",
+        "value": "No",
+        "highlighted": false
+      },
+      {
+        "name": "Red incorporada?",
+        "value": "No",
+        "highlighted": false
+      },
+      {
+        "name": "Propagación de llama",
+        "value": "S/E",
+        "highlighted": false
+      }
+    ]
   },
   {
     "title": "Super TBA 1",
     "logo": "https://res.cloudinary.com/isolant-cloudinary/image/upload/w_auto,f_auto,q_auto:good/rufi/logo/alternative-products/isolant-aislantes-landing-rufi-super-tba-logo.png",
     "productImage": "https://res.cloudinary.com/isolant-cloudinary/image/upload/w_auto,f_auto,q_auto:good/rufi/products/alternatives/isolant-aislantes-landing-rufi-rollo-super-tba.png",
-    "backgroundImage": "https://res.cloudinary.com/isolant-cloudinary/image/upload/w_auto,f_auto,q_auto:good/rufi/bg/products/isolant-aislantes-landing-rufi-imagen-super-tba.jpg",
-    "measurement": "1,20 x 20 mts.",
-    "thickness": "15 mm.",
-    "characteristics": [
-      "Rollo 1,20 ancho",
-      "Para todo tipo de techo",
-      "Solape para termo soldar",
-      "Acanalado techo ventilado",
-      "Aluminio alto micronaje"
-    ],
-    "benefits": [
-      "Mayor densidad de la espuma",
-      "Servicio técnico gratuito"
-    ],
-    "url": "https://www.isolant.com.ar/aislantes/super-tba"
+    "url": "https://www.isolant.com.ar/aislantes/super-tba",
+    "parameters": [
+      {
+        "name": "Medida",
+        "value": "1,20x15",
+        "highlighted": true,
+        "highlightedScore": 2
+      },
+      {
+        "name": "Espesor mm",
+        "value": "15",
+        "highlighted": true,
+        "highlightedScore": 2
+      },
+      {
+        "name": "Superficie útil (m2)",
+        "value": "18",
+        "highlighted": false
+      },
+      {
+        "name": "Unión",
+        "value": "Termo soldado",
+        "highlighted": true,
+        "highlightedScore": 1
+      },
+      {
+        "name": "Densidad de espuma (kgs/m³)",
+        "value": "24",
+        "highlighted": true,
+        "highlightedScore": 1
+      },
+      {
+        "name": "Resistencia Térmica m²K/W en 10mm",
+        "value": "1.68 (*)",
+        "highlighted": true,
+        "highlightedScore": 3
+      },
+      {
+        "name": "Equivale a lana de vidrio de",
+        "value": "68 mm. (*)",
+        "highlighted": true,
+        "highlightedScore": 1
+      },
+      {
+        "name": "Estructura",
+        "value": "Madera / Metálica",
+        "highlighted": true,
+        "highlightedScore": 2
+      },
+      {
+        "name": "Cara superior",
+        "value": "Aluminio",
+        "highlighted": false
+      },
+      {
+        "name": "Contacto con la chapa?",
+        "value": "Si",
+        "highlighted": true,
+        "highlightedScore": 1
+      },
+      {
+        "name": "Vista / Cara inferior",
+        "value": "No",
+        "highlighted": false
+      },
+      {
+        "name": "Red incorporada?",
+        "value": "No",
+        "highlighted": false
+      },
+      {
+        "name": "Propagación de llama",
+        "value": "S/E",
+        "highlighted": false
+      }
+    ]
   },
   {
     "title": "Alu Fusion NET",
     "logo": "https://res.cloudinary.com/isolant-cloudinary/image/upload/w_auto,f_auto,q_auto:good/rufi/logo/alternative-products/isolant-aislantes-landing-rufi-logo-alu-fusion-net.png",
     "productImage": "https://res.cloudinary.com/isolant-cloudinary/image/upload/w_auto,f_auto,q_auto:good/rufi/products/alternatives/isolant-aislantes-landing-rufi-rollo-alu-fusion-net.png",
-    "backgroundImage": "https://res.cloudinary.com/isolant-cloudinary/image/upload/w_auto,f_auto,q_auto:good/rufi/bg/products/isolant-aislantes-landing-rufi-imagen-alu-fusion-net.jpg",
-    "measurement": "1,05 x 20 mts.",
-    "thickness": "10 mm.",
-    "benefits": [
-      "Red incorporada; no necesita malla sostén",
-      "Aluminio alto micronaje",
-      "Mayor densidad de la espuma",
-      "Servicio técnico gratuito"
-
-    ],
-    "url": "https://www.isolant.com.ar/aislantes/alu-fusion-net"
+    "url": "https://www.isolant.com.ar/aislantes/alu-fusion-net",
+    "parameters": [
+      {
+        "name": "Medida",
+        "value": "1,05x20",
+        "highlighted": true,
+        "highlightedScore": 1
+      },
+      {
+        "name": "Espesor mm",
+        "value": "10",
+        "highlighted": false
+      },
+      {
+        "name": "Superficie útil (m2)",
+        "value": "20",
+        "highlighted": true,
+        "highlightedScore": 1
+      },
+      {
+        "name": "Unión",
+        "value": "Termo soldado reforzado",
+        "highlighted": true,
+        "highlightedScore": 2
+      },
+      {
+        "name": "Densidad de espuma (kgs/m³)",
+        "value": "25",
+        "highlighted": true,
+        "highlightedScore": 2
+      },
+      {
+        "name": "Resistencia Térmica m²K/W en 10mm",
+        "value": "1.61",
+        "highlighted": true,
+        "highlightedScore": 2
+      },
+      {
+        "name": "Equivale a lana de vidrio de",
+        "value": "67 mm.",
+        "highlighted": true,
+        "highlightedScore": 2
+      },
+      {
+        "name": "Estructura",
+        "value": "Metálica",
+        "highlighted": false
+      },
+      {
+        "name": "Cara superior",
+        "value": "Aluminio",
+        "highlighted": false
+      },
+      {
+        "name": "Contacto con la chapa?",
+        "value": "Si",
+        "highlighted": true,
+        "highlightedScore": 1
+      },
+      {
+        "name": "Vista / Cara inferior",
+        "value": "No",
+        "highlighted": false
+      },
+      {
+        "name": "Red incorporada?",
+        "value": "Si",
+        "highlighted": true,
+        "highlightedScore": 2
+      },
+      {
+        "name": "Propagación de llama",
+        "value": "RE2",
+        "highlighted": true,
+        "highlightedScore": 1
+      }
+    ]
   },
   {
     "title": "Cedro NET",
     "logo": "https://res.cloudinary.com/isolant-cloudinary/image/upload/w_auto,f_auto,q_auto:good/rufi/logo/alternative-products/isolant-aislantes-landing-rufi-logo-cedro-net.png",
     "productImage": "https://res.cloudinary.com/isolant-cloudinary/image/upload/w_auto,f_auto,q_auto:good/rufi/products/alternatives/isolant-aislantes-landing-rufi-rollo-cedro-net.png",
-    "backgroundImage": "https://res.cloudinary.com/isolant-cloudinary/image/upload/w_auto,f_auto,q_auto:good/rufi/bg/products/isolant-aislantes-landing-rufi-imagen-cedro-net.jpg",
-    "measurement": "1,05 x 20 mts.",
-    "thickness": "10 mm.",
-    "characteristics": [
-      "Terminación estética símil cedro"
-    ],
-    "benefits": [
-      "Red incorporada; no necesita malla sostén",
-      "Aluminio alto micronaje",
-      "Mayor densidad de la espuma",
-      "Servicio técnico gratuito"
-
-    ],
-    "url": "https://www.isolant.com.ar/aislantes/cedro-net"
+    "url": "https://www.isolant.com.ar/aislantes/cedro-net",
+    "parameters": [
+      {
+        "name": "Medida",
+        "value": "1,05x10",
+        "highlighted": false
+      },
+      {
+        "name": "Espesor mm",
+        "value": "10",
+        "highlighted": false
+      },
+      {
+        "name": "Superficie útil (m2)",
+        "value": "10",
+        "highlighted": false
+      },
+      {
+        "name": "Unión",
+        "value": "Termo soldado reforzado",
+        "highlighted": true,
+        "highlightedScore": 2
+      },
+      {
+        "name": "Densidad de espuma (kgs/m³)",
+        "value": "25",
+        "highlighted": true,
+        "highlightedScore": 2
+      },
+      {
+        "name": "Resistencia Térmica m²K/W en 10mm",
+        "value": "S/E",
+        "highlighted": false
+      },
+      {
+        "name": "Equivale a lana de vidrio de",
+        "value": "S/E",
+        "highlighted": false
+      },
+      {
+        "name": "Estructura",
+        "value": "Metálica",
+        "highlighted": false
+      },
+      {
+        "name": "Cara superior",
+        "value": "Aluminio",
+        "highlighted": false
+      },
+      {
+        "name": "Contacto con la chapa?",
+        "value": "Si",
+        "highlighted": true,
+        "highlightedScore": 1
+      },
+      {
+        "name": "Vista / Cara inferior",
+        "value": "Si",
+        "highlighted": true,
+        "highlightedScore": 1
+      },
+      {
+        "name": "Red incorporada?",
+        "value": "Si",
+        "highlighted": true,
+        "highlightedScore": 2
+      },
+      {
+        "name": "Propagación de llama",
+        "value": "RE2",
+        "highlighted": true,
+        "highlightedScore": 1
+      }
+    ]
   }
 ]

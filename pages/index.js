@@ -58,6 +58,16 @@ export default function Landing() {
         /> */}
       </section>
       <section id="vivienda-estructura-metalica-cubierta-chapa-y-cielorraso">
+        <article
+          className="pt-16 lg:pt-24"
+        >
+          <ProductsTitle
+            title="Vivienda estructura metálica, cubierta chapa y cielorraso"
+          />
+          <ProductsTable
+            products={viviendaOne}
+          />
+        </article>
         {/* <ProductsSection
           activeSelection={activeSelection}
           setActiveProduct={setActiveProduct}
@@ -70,6 +80,16 @@ export default function Landing() {
         /> */}
       </section>
       <section id="vivienda-cubierta-teja-y-machimbre">
+        <article
+          className="pt-16 lg:pt-24"
+        >
+          <ProductsTitle
+            title="Vivienda cubierta teja y machimbre"
+          />
+          <ProductsTable
+            products={viviendaTwo}
+          />
+        </article>
         {/* <ProductsSection
           activeSelection={activeSelection}
           setActiveProduct={setActiveProduct}

@@ -2,61 +2,309 @@
   {
     "title": "Aluminizado",
     "productImage": "https://res.cloudinary.com/isolant-cloudinary/image/upload/w_auto,f_auto,q_auto:good/rufi/products/rufi/isolant-aislantes-landing-rufi-rollo-rufi-aluminizado.png",
-    "measurement": "1 x 20 mts.",
-    "thickness": "5, 10, 15 mm."
+    "parameters": [
+      {
+        "name": "Medida",
+        "value": "1x20",
+        "highlighted": false
+      },
+      {
+        "name": "Espesor mm",
+        "value": "5 y 10",
+        "highlighted": false
+      },
+      {
+        "name": "Superficie útil (m2)",
+        "value": "18.6",
+        "highlighted": false
+      },
+      {
+        "name": "Unión",
+        "value": "Superpuesta",
+        "highlighted": false
+      },
+      {
+        "name": "Densidad de espuma (kgs/m³)",
+        "value": "16",
+        "highlighted": false
+      },
+      {
+        "name": "Resistencia Térmica m²K/W en 10mm",
+        "value": "S/E",
+        "highlighted": false
+      },
+      {
+        "name": "Equivale a lana de vidrio de",
+        "value": "S/E",
+        "highlighted": false
+      },
+      {
+        "name": "Estructura",
+        "value": "Madera",
+        "highlighted": false
+      },
+      {
+        "name": "Cara superior",
+        "value": "Aluminizado",
+        "highlighted": false
+      },
+      {
+        "name": "Contacto con la chapa?",
+        "value": "No",
+        "highlighted": false
+      },
+      {
+        "name": "Vista / Cara inferior",
+        "value": "No",
+        "highlighted": false
+      },
+      {
+        "name": "Red incorporada?",
+        "value": "No",
+        "highlighted": false
+      },
+      {
+        "name": "Propagación de llama",
+        "value": "S/E",
+        "highlighted": false
+      }
+    ]
   },
   {
     "title": "Super TBA 2",
     "logo": "https://res.cloudinary.com/isolant-cloudinary/image/upload/w_auto,f_auto,q_auto:good/rufi/logo/alternative-products/isolant-aislantes-landing-rufi-super-tba-logo.png",
     "productImage": "https://res.cloudinary.com/isolant-cloudinary/image/upload/w_auto,f_auto,q_auto:good/rufi/products/alternatives/isolant-aislantes-landing-rufi-rollo-super-tba.png",
-    "backgroundImage": "https://res.cloudinary.com/isolant-cloudinary/image/upload/w_auto,f_auto,q_auto:good/rufi/bg/products/isolant-aislantes-landing-rufi-imagen-super-tba.jpg",
-    "measurement": "1,20 x 20 mts.",
-    "thickness": "15 mm.",
-    "characteristics": [
-      "Rollo 1,20 ancho",
-      "Para todo tipo de techo",
-      "Solape para termo soldar",
-      "Acanalado techo ventilado",
-      "Aluminio alto micronaje"
-    ],
-    "benefits": [
-      "Mayor densidad de la espuma",
-      "Servicio técnico gratuito"
-    ],
-    "url": "https://www.isolant.com.ar/aislantes/super-tba"
+    "url": "https://www.isolant.com.ar/aislantes/super-tba",
+    "parameters": [
+      {
+        "name": "Medida",
+        "value": "1,20x15",
+        "highlighted": true,
+        "highlightedScore": 2
+      },
+      {
+        "name": "Espesor mm",
+        "value": "15",
+        "highlighted": true,
+        "highlightedScore": 2
+      },
+      {
+        "name": "Superficie útil (m2)",
+        "value": "18",
+        "highlighted": false
+      },
+      {
+        "name": "Unión",
+        "value": "Termo soldado",
+        "highlighted": true,
+        "highlightedScore": 1
+      },
+      {
+        "name": "Densidad de espuma (kgs/m³)",
+        "value": "24",
+        "highlighted": true,
+        "highlightedScore": 1
+      },
+      {
+        "name": "Resistencia Térmica m²K/W en 10mm",
+        "value": "1.68 (*)",
+        "highlighted": true,
+        "highlightedScore": 3
+      },
+      {
+        "name": "Equivale a lana de vidrio de",
+        "value": "68 mm. (*)",
+        "highlighted": true,
+        "highlightedScore": 1
+      },
+      {
+        "name": "Estructura",
+        "value": "Madera / Metálica",
+        "highlighted": true,
+        "highlightedScore": 2
+      },
+      {
+        "name": "Cara superior",
+        "value": "Aluminio",
+        "highlighted": false
+      },
+      {
+        "name": "Contacto con la chapa?",
+        "value": "Si",
+        "highlighted": true,
+        "highlightedScore": 1
+      },
+      {
+        "name": "Vista / Cara inferior",
+        "value": "No",
+        "highlighted": false
+      },
+      {
+        "name": "Red incorporada?",
+        "value": "No",
+        "highlighted": false
+      },
+      {
+        "name": "Propagación de llama",
+        "value": "S/E",
+        "highlighted": false
+      }
+    ]
   },
   {
     "title": "TBA Multicapa",
     "logo": "https://res.cloudinary.com/isolant-cloudinary/image/upload/w_auto,f_auto,q_auto:good/rufi/logo/alternative-products/isolant-aislantes-landing-rufi-logo-tba-multicapa.png",
     "productImage": "https://res.cloudinary.com/isolant-cloudinary/image/upload/w_auto,f_auto,q_auto:good/rufi/products/alternatives/isolant-aislantes-landing-rufi-rollo-tba-multicapa.png",
-    "backgroundImage": "https://res.cloudinary.com/isolant-cloudinary/image/upload/w_auto,f_auto,q_auto:good/rufi/bg/products/isolant-aislantes-landing-rufi-imagen-tba-multicapa.jpg",
-    "measurement": "1 x 20 mts.",
-    "thickness": "7mm constante y 13mm en los bastones aireadores",
-    "characteristics": [
-      "Triple capa hidrófuga",
-      "Anti-deslizante",
-      "Aluminio puro de alto micronaje protegido",
-      "Bastones de ventilación (techo ventilado)"
-    ],
-    "benefits": [
-      "Mayor densidad de la espuma",
-      "Servicio técnico gratuito"
-    ],
-    "url": "https://www.isolant.com.ar/aislantes/tba-multicapa"
+    "url": "https://www.isolant.com.ar/aislantes/tba-multicapa",
+    "parameters": [
+      {
+        "name": "Medida",
+        "value": "1x20",
+        "highlighted": false
+      },
+      {
+        "name": "Espesor mm",
+        "value": "7 / 14",
+        "highlighted": true,
+        "highlightedScore": 1
+      },
+      {
+        "name": "Superficie útil (m2)",
+        "value": "18.6",
+        "highlighted": false
+      },
+      {
+        "name": "Unión",
+        "value": "Rapi Tac",
+        "highlighted": true,
+        "highlightedScore": 1
+      },
+      {
+        "name": "Densidad de espuma (kgs/m³)",
+        "value": "25",
+        "highlighted": true,
+        "highlightedScore": 2
+      },
+      {
+        "name": "Resistencia Térmica m²K/W en 10mm",
+        "value": "1.46",
+        "highlighted": true,
+        "highlightedScore": 1
+      },
+      {
+        "name": "Equivale a lana de vidrio de",
+        "value": "58 mm.",
+        "highlighted": true,
+        "highlightedScore": 1
+      },
+      {
+        "name": "Estructura",
+        "value": "Madera",
+        "highlighted": false
+      },
+      {
+        "name": "Cara superior",
+        "value": "Aluminio puro",
+        "highlighted": true,
+        "highlightedScore": 1
+      },
+      {
+        "name": "Contacto con la chapa?",
+        "value": "Si",
+        "highlighted": true,
+        "highlightedScore": 1
+      },
+      {
+        "name": "Vista / Cara inferior",
+        "value": "No",
+        "highlighted": false
+      },
+      {
+        "name": "Red incorporada?",
+        "value": "No",
+        "highlighted": false
+      },
+      {
+        "name": "Propagación de llama",
+        "value": "RE2",
+        "highlighted": true,
+        "highlightedScore": 2
+      }
+    ]
   },
   {
     "title": "TBA",
     "productImage": "https://res.cloudinary.com/isolant-cloudinary/image/upload/w_auto,f_auto,q_auto:good/rufi/products/alternatives/isolant-aislantes-landing-rufi-rollo-tba.png",
-    "backgroundImage": "https://res.cloudinary.com/isolant-cloudinary/image/upload/w_auto,q_auto:good,f_auto/rufi/bg/products/isolant-aislantes-landing-rufi-imagen-tba.jpg",
-    "measurement": "1 x 20 mts.",
-    "thickness": "5, 10, 15 mm.",
-    "characteristics": [
-      "Rapi-Tac"
-    ],
-    "benefits": [
-      "Mayor densidad de la espuma",
-      "Servicio técnico gratuito"
-    ],
-    "url": "https://www.isolant.com.ar/aislantes/tba"
+    "url": "https://www.isolant.com.ar/aislantes/tba",
+    "parameters": [
+      {
+        "name": "Medida",
+        "value": "1x20",
+        "highlighted": false
+      },
+      {
+        "name": "Espesor mm",
+        "value": "5 y 10",
+        "highlighted": false
+      },
+      {
+        "name": "Superficie útil (m2)",
+        "value": "18.6",
+        "highlighted": false
+      },
+      {
+        "name": "Unión",
+        "value": "Rapi Tac",
+        "highlighted": true,
+        "highlightedScore": 1
+      },
+      {
+        "name": "Densidad de espuma (kgs/m³)",
+        "value": "21",
+        "highlighted": true,
+        "highlightedScore": 1
+      },
+      {
+        "name": "Resistencia Térmica m²K/W en 10mm",
+        "value": "01.07",
+        "highlighted": false
+      },
+      {
+        "name": "Equivale a lana de vidrio de",
+        "value": "35 mm.",
+        "highlighted": false
+      },
+      {
+        "name": "Estructura",
+        "value": "Madera",
+        "highlighted": false
+      },
+      {
+        "name": "Cara superior",
+        "value": "Aluminizado",
+        "highlighted": false
+      },
+      {
+        "name": "Contacto con la chapa?",
+        "value": "No",
+        "highlighted": false
+      },
+      {
+        "name": "Vista / Cara inferior",
+        "value": "No",
+        "highlighted": false
+      },
+      {
+        "name": "Red incorporada?",
+        "value": "No",
+        "highlighted": false
+      },
+      {
+        "name": "Propagación de llama",
+        "value": "RE2",
+        "highlighted": true,
+        "highlightedScore": 2
+      }
+    ]
   }
 ]

@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 export default function ProductsTable({ products }) {
   return (
-    <div className="mt-48 container mx-auto overflow-x-auto">
+    <div className="mt-8 container mx-auto overflow-x-auto">
       <table className="w-full border-separate">
         <TableHeading
           products={products}
@@ -35,7 +35,7 @@ export function TableHeading({ products }) {
         {products.map((product, index) =>
           <td
             key={index}
-            className="relative p-4"
+            className="relative p-4 align-bottom"
           >
             {/* Product image */}
             <div 
