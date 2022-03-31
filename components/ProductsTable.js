@@ -131,25 +131,32 @@ export function TableBody({ products }) {
                   relative px-4 py-2 rounded-md
                 `}
               >
-                <span
+                <div
                   className={`
-                    uppercase tracking-wider text-xs font-bold
+                    uppercase tracking-wider text-xs font-bold flex items-center
                     ${item[paramIndex].highlighted && item[paramIndex].highlightedScore === 3 ? 'text-orange-500' : 'text-gray-500'}
                   `}
                 >
-                  {item[paramIndex].value}
-                  <span className="relative left-1 top-px text-base text-orange-500">
+                  <span className="flex-1">{item[paramIndex].value}</span>
+                  <span className="relative left-1 top-px text-base text-orange-500 flex">
                     {item[paramIndex].highlighted === true &&
                       item[paramIndex].highlightedScore === 1 ?
-                        '+'
+                        <span className="bg-white rounded-full w-6 h-6 text-center block shadow-sm">+</span>
                       : item[paramIndex].highlightedScore === 2 ?
-                        '++'
+                        <React.Fragment>
+                          <span className="bg-white rounded-full w-6 h-6 text-center block shadow-sm">+</span>
+                          <span className="ml-1 bg-white rounded-full w-6 h-6 text-center block shadow-sm">+</span>
+                        </React.Fragment>
                       : item[paramIndex].highlightedScore === 3 ?
-                        '+++'
+                        <React.Fragment>
+                          <span className="bg-white rounded-full w-6 h-6 text-center block shadow-sm">+</span>
+                          <span className="ml-1 bg-white rounded-full w-6 h-6 text-center block shadow-sm">+</span>
+                          <span className="ml-1 bg-white rounded-full w-6 h-6 text-center block shadow-sm">+</span>
+                        </React.Fragment>
                       : ''
                     }
                   </span>
-                </span>
+                </div>
               </td>
             )}
           </tr>
