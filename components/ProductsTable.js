@@ -24,7 +24,7 @@ export function TableHeading({ products }) {
         className="bg-gray-50"
       >
         <td
-          className="relative p-4 align-bottom"
+          className="relative p-2 align-bottom"
         >
           <span
             className="uppercase tracking-wider text-xs text-gray-500 font-bold"
@@ -109,7 +109,7 @@ export function TableBody({ products }) {
             className="border-y-8 border-y-solid border-y-white"
           >
             <td
-              className="relative px-4 py-2"
+              className="relative p-2"
             >
               <span className="uppercase tracking-wider text-xs text-gray-500 font-bold">
                 {param}
@@ -128,7 +128,7 @@ export function TableBody({ products }) {
                       'bg-orange-200'
                     : ''
                   }
-                  relative px-4 py-2 rounded-md
+                  relative p-2 rounded-md
                 `}
               >
                 <div
@@ -137,25 +137,25 @@ export function TableBody({ products }) {
                     ${item[paramIndex].highlighted && item[paramIndex].highlightedScore === 3 ? 'text-orange-500' : 'text-gray-500'}
                   `}
                 >
-                  <span className="flex-1">{item[paramIndex].value}</span>
-                  <span className="relative left-1 top-px text-base text-orange-500 flex">
+                  <span className="relative flex-1 top-px text-base text-orange-500 flex">
                     {item[paramIndex].highlighted === true &&
                       item[paramIndex].highlightedScore === 1 ?
-                        <span className="bg-white rounded-full w-6 h-6 text-center block shadow-sm">+</span>
+                        <span className="bg-orange-500 text-white rounded-full w-6 h-6 text-center block shadow-lg shadow-orange-300">+</span>
                       : item[paramIndex].highlightedScore === 2 ?
                         <React.Fragment>
-                          <span className="bg-white rounded-full w-6 h-6 text-center block shadow-sm">+</span>
-                          <span className="ml-1 bg-white rounded-full w-6 h-6 text-center block shadow-sm">+</span>
+                          <span className="bg-orange-500 text-white rounded-full w-6 h-6 text-center block shadow-lg shadow-orange-300">+</span>
+                          <span className="ml-1 bg-orange-500 text-white rounded-full w-6 h-6 text-center block shadow-lg shadow-orange-300">+</span>
                         </React.Fragment>
                       : item[paramIndex].highlightedScore === 3 ?
                         <React.Fragment>
-                          <span className="bg-white rounded-full w-6 h-6 text-center block shadow-sm">+</span>
-                          <span className="ml-1 bg-white rounded-full w-6 h-6 text-center block shadow-sm">+</span>
-                          <span className="ml-1 bg-white rounded-full w-6 h-6 text-center block shadow-sm">+</span>
+                          <span className="bg-orange-500 text-white rounded-full w-6 h-6 text-center block shadow-lg shadow-orange-300">+</span>
+                          <span className="ml-1 bg-orange-500 text-white rounded-full w-6 h-6 text-center block shadow-lg shadow-orange-300">+</span>
+                          <span className="ml-1 bg-orange-500 text-white rounded-full w-6 h-6 text-center block shadow-lg shadow-orange-300">+</span>
                         </React.Fragment>
                       : ''
                     }
                   </span>
+                  <span className="text-right">{item[paramIndex].value}</span>
                 </div>
               </td>
             )}

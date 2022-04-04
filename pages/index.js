@@ -34,7 +34,7 @@ export default function Landing() {
       />
       <section id="galpones-y-tinglados">
         <article
-          className="pt-16 lg:pt-24"
+          className="pt-16 lg:pt-24 overflow-x-hidden"
         >
           <ProductsTitle
             title="Galpones y Tinglados"
@@ -59,7 +59,7 @@ export default function Landing() {
       </section>
       <section id="vivienda-estructura-metalica-cubierta-chapa-y-cielorraso">
         <article
-          className="pt-16 lg:pt-24"
+          className="pt-16 lg:pt-24 overflow-x-hidden"
         >
           <ProductsTitle
             title="Vivienda estructura metálica, cubierta chapa y cielorraso"
@@ -81,7 +81,7 @@ export default function Landing() {
       </section>
       <section id="vivienda-cubierta-teja-y-machimbre">
         <article
-          className="pt-16 lg:pt-24"
+          className="pt-16 lg:pt-24 overflow-x-hidden"
         >
           <ProductsTitle
             title="Vivienda cubierta teja y machimbre"
