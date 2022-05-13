@@ -5,7 +5,7 @@ import Image from 'next/image';
 export default function ProductsTable({ products }) {
   return (
     <div className="mt-8 container mx-auto overflow-x-auto">
-      <table className="w-full border-separate">
+      <table className="w-full border-separate table-fixed">
         <TableHeading
           products={products}
         />
@@ -39,13 +39,13 @@ export function TableHeading({ products }) {
           >
             {/* Product image */}
             <div 
-              className="relative mb-4"
+              className="relative mb-4 w-32 mx-auto"
             >
               {/* + icon */}
               {index !== 0 &&
                 <a
                   className={`
-                    absolute -left-2 top-16
+                    absolute left-2 top-16
                     w-10 h-10
                     rounded-full
                     shadow-md
@@ -62,7 +62,7 @@ export function TableHeading({ products }) {
               <img
                 src={product.productImage}
                 alt={product.title}
-                className={`${product.title === 'Super TBA 1' || product.title === 'Super TBA 2' ? 'max-h-44' : 'max-h-36'}`}
+                className={`${product.title === 'Super TBA 1' || product.title === 'Super TBA 2' ? 'max-h-44 mx-auto' : 'max-h-36 mx-auto'}`}
               />
             </div>
             {/* Rufi logo */}
@@ -133,29 +133,29 @@ export function TableBody({ products }) {
               >
                 <div
                   className={`
-                    uppercase tracking-wider text-xs font-bold flex items-center
+                    uppercase tracking-wider text-xs font-bold flex justify-center items-center
                     ${item[paramIndex].highlighted && item[paramIndex].highlightedScore === 3 ? 'text-orange-500' : 'text-gray-500'}
                   `}
                 >
-                  <span className="relative flex-1 top-px text-base text-orange-500 flex">
+                  <span className="relative top-px text-base text-orange-500 flex">
                     {item[paramIndex].highlighted === true &&
                       item[paramIndex].highlightedScore === 1 ?
-                        <span className="bg-orange-500 text-white rounded-full w-6 h-6 text-center block shadow-lg shadow-orange-300">+</span>
+                        <span className="text-white rounded-full text-center block">💪</span>
                       : item[paramIndex].highlightedScore === 2 ?
                         <React.Fragment>
-                          <span className="bg-orange-500 text-white rounded-full w-6 h-6 text-center block shadow-lg shadow-orange-300">+</span>
-                          <span className="ml-1 bg-orange-500 text-white rounded-full w-6 h-6 text-center block shadow-lg shadow-orange-300">+</span>
+                          <span className="text-white rounded-full text-center block">💪</span>
+                          <span className="ml-1 text-white rounded-full text-center block">💪</span>
                         </React.Fragment>
                       : item[paramIndex].highlightedScore === 3 ?
                         <React.Fragment>
-                          <span className="bg-orange-500 text-white rounded-full w-6 h-6 text-center block shadow-lg shadow-orange-300">+</span>
-                          <span className="ml-1 bg-orange-500 text-white rounded-full w-6 h-6 text-center block shadow-lg shadow-orange-300">+</span>
-                          <span className="ml-1 bg-orange-500 text-white rounded-full w-6 h-6 text-center block shadow-lg shadow-orange-300">+</span>
+                          <span className="text-white rounded-full text-center block">💪</span>
+                          <span className="ml-1 text-white rounded-full text-center block">💪</span>
+                          <span className="ml-1 text-white rounded-full text-center block">💪</span>
                         </React.Fragment>
                       : ''
                     }
                   </span>
-                  <span className="text-right">{item[paramIndex].value}</span>
+                  <span className="ml-2">{item[paramIndex].value}</span>
                 </div>
               </td>
             )}
