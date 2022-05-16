@@ -35,7 +35,7 @@ export function TableHeading({ products }) {
         {products.map((product, index) =>
           <td
             key={index}
-            className="relative p-4 align-bottom"
+            className="relative p-4 align-bottom text-center"
           >
             {/* Product image */}
             <div 
@@ -77,7 +77,7 @@ export function TableHeading({ products }) {
             {product.logo ?
               <img
                 src={product.logo}
-                className="w-32"
+                className="w-32 mx-auto"
               />
             :
               <span

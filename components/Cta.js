@@ -9,11 +9,11 @@ export default function Cta() {
       style={{ backgroundImage: 'url(https://res.cloudinary.com/isolant-cloudinary/image/upload/v1647604495/rufi/bg/isolant-aislantes-landing-rufi-fondo-gradiente.jpg)' }}
     >
       <svg width="73" height="60" viewBox="0 0 73 60" fill="none" xmlns="http://www.w3.org/2000/svg" className="absolute top-0">
-        <path fill-rule="evenodd" clip-rule="evenodd" d="M10 30L6.31805e-06 30L36.3015 59.6985L72.603 30L62 30L62 -4.63473e-07L10 -2.73647e-06L10 30Z" fill="url(#paint0_linear_19_102)"/>
+        <path fillRule="evenodd" clipRule="evenodd" d="M10 30L6.31805e-06 30L36.3015 59.6985L72.603 30L62 30L62 -4.63473e-07L10 -2.73647e-06L10 30Z" fill="url(#paint0_linear_19_102)"/>
         <defs>
         <linearGradient id="paint0_linear_19_102" x1="72.3991" y1="3.00939" x2="0.203961" y2="3.00938" gradientUnits="userSpaceOnUse">
-        <stop stop-color="#009EE2"/>
-        <stop offset="1" stop-color="#006997"/>
+        <stop stopColor="#009EE2"/>
+        <stop offset="1" stopColor="#006997"/>
         </linearGradient>
         </defs>
       </svg>
@@ -64,12 +64,12 @@ export default function Cta() {
         <path d="M180.5 162L90.5 71.5L0 162L21 162L90.5 92L158.5 162L180.5 162Z" fill="url(#paint1_linear_17_972)"/>
         <defs>
         <linearGradient id="paint0_linear_17_972" x1="216.045" y1="80.7718" x2="54.9551" y2="80.7718" gradientUnits="userSpaceOnUse">
-        <stop stop-color="#009EE2"/>
-        <stop offset="1" stop-color="#006997"/>
+        <stop stopColor="#009EE2"/>
+        <stop offset="1" stopColor="#006997"/>
         </linearGradient>
         <linearGradient id="paint1_linear_17_972" x1="179.5" y1="116.75" x2="1.92803e-05" y2="116.75" gradientUnits="userSpaceOnUse">
-        <stop stop-color="#FFC72C"/>
-        <stop offset="1" stop-color="#FAA83C"/>
+        <stop stopColor="#FFC72C"/>
+        <stop offset="1" stopColor="#FAA83C"/>
         </linearGradient>
         </defs>
       </svg>
