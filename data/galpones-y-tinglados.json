@@ -44,7 +44,7 @@
     },
     {
       "name": "Cara superior",
-      "value": "Doble aluminio",
+      "value": "Aluminio",
       "highlighted": false
     },
     {
@@ -124,8 +124,10 @@
     },
     {
       "name": "Cara superior",
-      "value": "Doble aluminio",
-      "highlighted": false
+      "value": "Aluminio",
+      "highlighted": false,
+      "highlighted": true,
+      "highlightedScore": 1
     },
     {
       "name": "Contacto con la chapa?",
@@ -135,7 +137,8 @@
     {
       "name": "Vista / Cara inferior",
       "value": "Aluminio",
-      "highlighted": false
+      "highlighted": true,
+      "highlightedScore": 1
     },
     {
       "name": "Red incorporada?",
@@ -204,8 +207,9 @@
     },
     {
       "name": "Cara superior",
-      "value": "Doble aluminio",
-      "highlighted": false
+      "value": "Aluminio",
+      "highlighted": true,
+      "highlightedScore": 1
     },
     {
       "name": "Contacto con la chapa?",
@@ -286,8 +290,9 @@
     },
     {
       "name": "Cara superior",
-      "value": "Doble aluminio",
-      "highlighted": false
+      "value": "Aluminio",
+      "highlighted": true,
+      "highlightedScore": 1
     },
     {
       "name": "Contacto con la chapa?",
@@ -297,7 +302,8 @@
     {
       "name": "Vista / Cara inferior",
       "value": "Aluminio",
-      "highlighted": false
+      "highlighted": true,
+      "highlightedScore": 1
     },
     {
       "name": "Red incorporada?",
@@ -364,8 +370,9 @@
     },
     {
       "name": "Cara superior",
-      "value": "Doble aluminio",
-      "highlighted": false
+      "value": "Aluminio",
+      "highlighted": true,
+      "highlightedScore": 1
     },
     {
       "name": "Contacto con la chapa?",
@@ -441,8 +448,9 @@
     },
     {
       "name": "Cara superior",
-      "value": "Doble aluminio",
-      "highlighted": false
+      "value": "Aluminio",
+      "highlighted": true,
+      "highlightedScore": 1
     },
     {
       "name": "Contacto con la chapa?",
