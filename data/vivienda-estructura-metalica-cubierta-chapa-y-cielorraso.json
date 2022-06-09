@@ -15,7 +15,7 @@
       },
       {
         "name": "Superficie útil (m2)",
-        "value": "18.6",
+        "value": "19",
         "highlighted": false
       },
       {
@@ -40,7 +40,7 @@
       },
       {
         "name": "Estructura",
-        "value": "Madera",
+        "value": "Metálica",
         "highlighted": false
       },
       {
@@ -50,7 +50,7 @@
       },
       {
         "name": "Contacto con la chapa?",
-        "value": "No",
+        "value": "Si",
         "highlighted": false
       },
       {
@@ -125,8 +125,9 @@
       },
       {
         "name": "Cara superior",
-        "value": "Aluminio",
-        "highlighted": false
+        "value": "Aluminio alto micronaje",
+        "highlighted": true,
+        "highlightedScore": 1
       },
       {
         "name": "Contacto con la chapa?",
@@ -136,8 +137,9 @@
       },
       {
         "name": "Vista / Cara inferior",
-        "value": "No",
-        "highlighted": false
+        "value": "Aluminio alto micronaje reforzado",
+        "highlighted": true,
+        "highlightedScore": 2
       },
       {
         "name": "Red incorporada?",
@@ -205,8 +207,9 @@
       },
       {
         "name": "Cara superior",
-        "value": "Aluminio",
-        "highlighted": false
+        "value": "Aluminio alto micronaje",
+        "highlighted": true,
+        "highlightedScore": 1
       },
       {
         "name": "Contacto con la chapa?",
@@ -216,8 +219,9 @@
       },
       {
         "name": "Vista / Cara inferior",
-        "value": "No",
-        "highlighted": false
+        "value": "Aluminio alto micronaje reforzado",
+        "highlighted": true,
+        "highlightedScore": 2
       },
       {
         "name": "Red incorporada?",
@@ -283,8 +287,9 @@
       },
       {
         "name": "Cara superior",
-        "value": "Aluminio",
-        "highlighted": false
+        "value": "Aluminio alto micronaje",
+        "highlighted": true,
+        "highlightedScore": 1
       },
       {
         "name": "Contacto con la chapa?",
@@ -294,9 +299,9 @@
       },
       {
         "name": "Vista / Cara inferior",
-        "value": "Si",
+        "value": "Simil Cedro",
         "highlighted": true,
-        "highlightedScore": 1
+        "highlightedScore": 2
       },
       {
         "name": "Red incorporada?",

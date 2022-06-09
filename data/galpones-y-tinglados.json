@@ -14,7 +14,7 @@
     },
     {
       "name": "Superficie útil (m2)",
-      "value": "18.6",
+      "value": "19",
       "highlighted": false
     },
     {
@@ -124,8 +124,7 @@
     },
     {
       "name": "Cara superior",
-      "value": "Aluminio",
-      "highlighted": false,
+      "value": "Aluminio alto micronaje",
       "highlighted": true,
       "highlightedScore": 1
     },
@@ -136,9 +135,9 @@
     },
     {
       "name": "Vista / Cara inferior",
-      "value": "Aluminio",
+      "value": "Aluminio alto micronaje reforzado",
       "highlighted": true,
-      "highlightedScore": 1
+      "highlightedScore": 2
     },
     {
       "name": "Red incorporada?",
@@ -207,7 +206,7 @@
     },
     {
       "name": "Cara superior",
-      "value": "Aluminio",
+      "value": "Aluminio alto micronaje",
       "highlighted": true,
       "highlightedScore": 1
     },
@@ -290,7 +289,7 @@
     },
     {
       "name": "Cara superior",
-      "value": "Aluminio",
+      "value": "Aluminio alto micronaje",
       "highlighted": true,
       "highlightedScore": 1
     },
@@ -301,9 +300,9 @@
     },
     {
       "name": "Vista / Cara inferior",
-      "value": "Aluminio",
+      "value": "Aluminio alto micronaje reforzado",
       "highlighted": true,
-      "highlightedScore": 1
+      "highlightedScore": 2
     },
     {
       "name": "Red incorporada?",
@@ -370,7 +369,7 @@
     },
     {
       "name": "Cara superior",
-      "value": "Aluminio",
+      "value": "Aluminio alto micronaje",
       "highlighted": true,
       "highlightedScore": 1
     },
@@ -448,7 +447,7 @@
     },
     {
       "name": "Cara superior",
-      "value": "Aluminio",
+      "value": "Aluminio alto micronaje",
       "highlighted": true,
       "highlightedScore": 1
     },
