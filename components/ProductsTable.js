@@ -5,7 +5,7 @@ import Image from 'next/image';
 export default function ProductsTable({ products }) {
   return (
     <div className="mt-8 container mx-auto overflow-x-auto">
-      <table className="w-full border-separate table-fixed">
+      <table className="w-full border-separate lg:table-fixed">
         <TableHeading
           products={products}
         />
