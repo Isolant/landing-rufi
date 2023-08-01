@@ -7,7 +7,7 @@ export default function Isoplus() {
       <ul className="grid grid-cols-1 lg:grid-cols-2">
         <Section
           decorations={true}
-          image="https://res.cloudinary.com/isolant-cloudinary/image/upload/w_auto,f_auto,q_auto:good/rufi/bg/isoplus/isolant-aislantes-landing-rufi-isoplus-duenos-e-inquilinos.jpg"
+          image="/images/bg/isoplus/isolant-aislantes-landing-rufi-isoplus-duenos-e-inquilinos.jpg"
           title={`¿No tenés quién te coloque <strong class="font-bold lg:block">nuestros aislantes?</strong>`}
           text="Encontrá a un profesional cerca de tu casa en nuestra base de instaladores y arquitectos ISOPLUS."
           ctaLink="https://isoplus.isolant.com.ar/inicio"
@@ -15,7 +15,7 @@ export default function Isoplus() {
         />
         <Section
           decorations={false}
-          image="https://res.cloudinary.com/isolant-cloudinary/image/upload/w_auto,f_auto,q_auto:good/rufi/bg/isoplus/isolant-aislantes-landing-rufi-isoplus-profesionales.jpg"
+          image="/images/bg/isoplus/isolant-aislantes-landing-rufi-isoplus-profesionales.jpg"
           title={`¿Sos un profesional <strong class="font-bold lg:block">de la construcción?</strong>`}
           text="Si sos un arquitecto, techista, MMO, etc., visitá nuestra web pensada especialmente para vos."
           ctaLink="https://isoplus.isolant.com.ar/instalador"

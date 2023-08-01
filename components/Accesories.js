@@ -17,8 +17,8 @@ export default function Accesories() {
       </div>
       <ul className="grid grid-cols-1 lg:grid-cols-3 items-center container mx-auto max-w-3xl">
         <Accesory
-          logo="https://res.cloudinary.com/isolant-cloudinary/image/upload/w_auto,f_auto,q_auto:good/rufi/logo/accesories/isolant-aislantes-landing-rufi-logo-sellatutti.png"
-          image="https://res.cloudinary.com/isolant-cloudinary/image/upload/w_auto,q_auto:good,f_auto/rufi/products/accesories/isolant-aislantes-landing-rufi-rollo-sellatutti.png"
+          logo="/images/logo/accesories/isolant-aislantes-landing-rufi-logo-sellatutti.png"
+          image="/images/products/accesories/isolant-aislantes-landing-rufi-rollo-sellatutti.png"
           description="Cierre hermético <br />para chapas"
           url="https://www.isolant.com.ar/aislantes/sellatutti"
         />
@@ -28,8 +28,8 @@ export default function Accesories() {
           />
         </li>
          <Accesory
-          logo="https://res.cloudinary.com/isolant-cloudinary/image/upload/w_auto,f_auto,q_auto:good/rufi/logo/accesories/isolant-aislantes-landing-rufi-logo-atacama.png"
-          image="https://res.cloudinary.com/isolant-cloudinary/image/upload/w_auto,f_auto,q_auto:good/rufi/products/accesories/isolant-aislantes-landing-rufi-logo-atacama.png"
+          logo="/images/logo/accesories/isolant-aislantes-landing-rufi-logo-atacama.png"
+          image="/images/products/accesories/isolant-aislantes-landing-rufi-logo-atacama.png"
           description="Aislante térmico líquido para losas, chapas y muros"
           url="https://www.isolant.com.ar/aislantes/atacama"
           id="atacama"

@@ -44,7 +44,7 @@ export default function RufiProduct({
         >
           <h3 className="uppercase tracking-wider text-sm text-gray-400">
             <Image
-              src="https://res.cloudinary.com/isolant-cloudinary/image/upload/w_auto,f_auto,q_auto:good/rufi/logo/rufi-color.png"
+              src="/images/logo/rufi-color.png"
               width={55}
               height={16}
             />

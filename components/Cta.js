@@ -6,7 +6,7 @@ export default function Cta() {
   return (
     <section
       className="relative lg:min-h-screen bg-cover bg-no-repeat flex flex-col items-center"
-      style={{ backgroundImage: 'url(https://res.cloudinary.com/isolant-cloudinary/image/upload/v1647604495/rufi/bg/isolant-aislantes-landing-rufi-fondo-gradiente.jpg)' }}
+      style={{ backgroundImage: 'url(/images/bg/isolant-aislantes-landing-rufi-fondo-gradiente.jpg)' }}
     >
       <svg width="73" height="60" viewBox="0 0 73 60" fill="none" xmlns="http://www.w3.org/2000/svg" className="absolute top-0">
         <path fillRule="evenodd" clipRule="evenodd" d="M10 30L6.31805e-06 30L36.3015 59.6985L72.603 30L62 30L62 -4.63473e-07L10 -2.73647e-06L10 30Z" fill="url(#paint0_linear_19_102)"/>
@@ -19,7 +19,7 @@ export default function Cta() {
       </svg>
       <div className="py-24 lg:py-48 text-center">
         <Image
-          src="https://res.cloudinary.com/isolant-cloudinary/image/upload/w_auto,f_auto,q_auto:good/rufi/products/isolant-aislantes-landing-rufi-mockup-rollos.png"
+          src="/images/products/isolant-aislantes-landing-rufi-mockup-rollos.png"
           width="445"
           height="333"
         />

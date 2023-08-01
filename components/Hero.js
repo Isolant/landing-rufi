@@ -36,7 +36,7 @@ export default function Hero({
             "
           >
             <Image
-              src="https://res.cloudinary.com/isolant-cloudinary/image/upload/w_88,f_auto,q_auto:good/rufi/logo/isolant-white.svg"
+              src="/images/logo/isolant-white.svg"
               width={88}
               height={30}
             />
@@ -51,7 +51,7 @@ export default function Hero({
           "
         >
           <Image
-            src="https://res.cloudinary.com/isolant-cloudinary/image/upload/w_112,f_auto,q_auto:good/rufi/logo/rufi-dark.svg"
+            src="/images/logo/rufi-dark.svg"
             width={112}
             height={32}
           />
